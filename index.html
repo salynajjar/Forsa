@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FORSA</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="app">
+      <header class="topbar">
+        <div class="brand">
+          <img src="assets/logo.png" alt="FORSA logo" />
+          <div class="brand-text">
+            <div class="brand-name">FORSA</div>
+            <div class="brand-sub">AI Career Guidance</div>
+          </div>
+        </div>
+
+        <nav class="nav">
+          <button data-route="splash">Home</button>
+          <button data-route="dashboard">Dashboard</button>
+          <button data-route="onboarding">How it Works</button>
+          <button data-route="auth">Sign In</button>
+          <button data-route="assessment">Assessment</button>
+          <button data-route="analysis">AI Analysis</button>
+          <button data-route="recommendations">Recommendations</button>
+          <button data-route="universities">Universities</button>
+          <button data-route="notifications">Notifications</button>
+          <button data-route="analytics">Analytics</button>
+        </nav>
+
+        <div class="lang-switch">
+          <label for="langSelect">Language</label>
+          <select id="langSelect">
+            <option value="en">English</option>
+            <option value="ar">Arabic</option>
+          </select>
+        </div>
+      </header>
+
+      <main>
+        <section id="screen-splash" class="screen active"></section>
+        <section id="screen-onboarding" class="screen"></section>
+        <section id="screen-dashboard" class="screen"></section>
+        <section id="screen-auth" class="screen"></section>
+        <section id="screen-assessment" class="screen"></section>
+        <section id="screen-analysis" class="screen"></section>
+        <section id="screen-recommendations" class="screen"></section>
+        <section id="screen-major" class="screen"></section>
+        <section id="screen-universities" class="screen"></section>
+        <section id="screen-university" class="screen"></section>
+        <section id="screen-workshop" class="screen"></section>
+        <section id="screen-notifications" class="screen"></section>
+        <section id="screen-analytics" class="screen"></section>
+        <section id="screen-game" class="screen"></section>
+
+        
+      </main>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
